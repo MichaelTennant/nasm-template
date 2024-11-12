@@ -8,5 +8,5 @@ An example template to follow when programming in nasm assembly of x86-64 Linux.
 - Detect stack smashing using the stack cookie.
 
 **TODO**
-- PIC & PIE with ld
-- CMakeLists.txt
+- fPIC & fPIE with ld
+- Expand on makefile to add ld support

@@ -2,7 +2,7 @@
 ; ... assembly lanuage for x86_64 GNU/Linux.
 
 ; Assemble: `nasm -f elf64 <input.asm> -o <object_file.o>`
-; Append the `-g -F dwarf` flags to the command to allow using 
+; Append the `-g -Fdwarf` flags to the command to allow using 
 ; ... the GDB debugger.
 
 ; Link: `gcc <output.o> -o <executable>`
